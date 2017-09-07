@@ -1,0 +1,102 @@
+       *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        .nav{
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            height: 100px;
+            background: -webkit-linear-gradient(left, #0884c4 , #b9a2a8); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(right, #0884c4, #b9a2a8); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(right, #0884c4, #b9a2a8); /* Firefox 3.6 - 15 */
+            background: linear-gradient(to right, #0884c4 , #b9a2a8); /* 标准的语法 */
+
+        }
+        .logo span{
+            position: fixed;
+            float: left;
+            top: 30px;
+            color: white; 
+            left: 45px;
+            font-size: 45px;
+        }
+
+        .mainNav {
+            margin-top: 14px;
+            font-size: 18px;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        ul{
+            width: 100%;
+            height: 100%;
+        }
+        /*ul li{
+            width: 100%;
+            height: 100%;
+            padding-top: 100px;
+
+        }*/
+        ol{
+            position: fixed;
+            width: 600px;
+            top: 30px;
+            left: 64%;
+        }
+        ol li{
+            float: left;
+            width: 130px;
+            height: 50px;
+            margin: -1px;
+            color: white;
+            text-align: center;
+            font: 400 22px/50px "simsun";
+            cursor: pointer;
+
+        }
+       
+        #bacground{
+            position: absolute:"img/background.jpg";
+           z-index:-1;
+        }
+
+        .introcontainer .intro{
+            float: left;
+            width: 33.3%;
+            height: 600px;
+            margin-top: -5%;
+            border: 1px solid gray;
+        }
+        .introHead{
+            padding-top: 30px;
+            height: 100px;
+            width: 50%;
+            margin :0 auto;
+            color: white;
+        }
+        .process{
+            float: left
+            top: 10%;
+            left: 20%
+            height: 40%;
+            width: 60%
+
+        }
+        #contact{
+            width: 900px;
+            margin-left: 19%; 
+            color: white; 
+            font-size: 20px;
+            text-align: left;
+        }
+        #contact p{
+            float: left;
+            margin-left: 5%;
+            margin-top: 10%
+        }

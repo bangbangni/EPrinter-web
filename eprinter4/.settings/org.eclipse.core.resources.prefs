@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//WebRoot/WEB-INF/views/EmFileShow.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/adManagerEmLog.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/adminHome.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/adminManger.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/main.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/printSet.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/userHome.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/userLog.jsp=UTF-8
+encoding//WebRoot/WEB-INF/views/userManager.jsp=UTF-8
+encoding//WebRoot/index.jsp=UTF-8
+encoding//WebRoot/resource/css/admin.css=UTF-8
+encoding//WebRoot/resource/js/pintuer.js=UTF-8
+encoding//src/ustc/sse/eprint/util/MinaFileClient.java=UTF-8

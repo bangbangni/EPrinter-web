@@ -1,0 +1,31 @@
+1、hibernate的二级缓存
+2、hibernate的lazy
+3、注解问题
+
+
+解决问题：实现了基本的对数据库的成套操作方法
+2016.11.9
+1、给用户日志管理添加了比较，通过实践以获取最新的日志，没有重载hascode方法
+2、直接跳转到另一个controller，接受的controller直接映射printTransferSet即可
+   return "redirect:/printTransferSet ";
+3、文档的大小计算和页数
+4、文件下载
+5、文件上传记录
+6、文件的删除工作
+7、文件的分页
+8、文件的搜索 存在问题：因为是搜索不能分页，点击分的也面，跑的未查询的页面
+9、于服务器相连的打印机选择？  没能获取select值
+
+10、完成了员工的显示
+11、员工打印纸张数统计
+
+问题：
+1、重启tomcat报：jacob.dll already loaded in another classloader ，没解决
+2、上传加密文档，计算pdf页数时int pdfPages = new PdfReader(pdfFile).getNumberOfPages();报java.lang.ClassNotFoundException: org.bouncycastle.asn1.ASN1OctetString，没解决
+
+任务：
+1、打印机的选择
+
+
+1、toMD5的异常没处理
+2、直接关闭懒加载

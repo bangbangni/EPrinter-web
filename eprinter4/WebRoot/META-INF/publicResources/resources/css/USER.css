@@ -1,0 +1,50 @@
+body,div{}
+body {font:12px Tahoma;margin:0px;text-align:center;background:#FFF;padding:0px;width:100%;height:1000px}
+/*页面层容器*/
+#container {width:100%;height:910px}
+/*页面头部*/
+#Header {width:100%;height:15%;background:#5599FF }
+
+/*页面主体*/
+#PageBody {width:100%;height:70%;background:#DDDDDD;position:relative;top:-1.55%}
+
+/*页面底部*/
+#Footer {width:100%;height:15%;background:#FFFFFF}
+
+#Sidebar {width:35%; height:100%;magin:auto;background:#DDDDDD;float:left;position:relative;top:0}
+#function1{width:30%; height:15%; position: relative; top:4%; left: 65%;background:#AAAAAA}
+#function2{width:30%; height:15%; position: relative; top:4%; left: 65%;background:#888888}
+#function3{width:30%; height:15%; position: relative; top:4%; left: 65%;background:#888888}
+#function4{width:30%; height:15%; position: relative; top:4%; left: 65%;background:#888888}
+
+#MainBody {width:65%;height:100%;magin:auto;background:#DDDDDD;float:left}
+
+#search {width:80%;height:10%; position: relative; top:2%; left: 10%;background:#FFFFFF}
+#content {width:80%; height:84%; position: relative; top:2%; left: 10%;background:#FFFFFF}
+
+#username {width:120px; height:15px; font-size:15px; position:relative;top:80%;left:27%; }
+#logout {width:120px;height:15px;font-size:15px; position:relative;top:67%;left:85%}
+
+.button {
+	
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
